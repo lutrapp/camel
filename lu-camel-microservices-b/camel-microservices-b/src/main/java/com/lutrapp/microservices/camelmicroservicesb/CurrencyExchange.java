@@ -2,6 +2,13 @@ package com.lutrapp.microservices.camelmicroservicesb;
 
 import java.math.BigDecimal;
 
+//JSON
+//CurrencyExchange //from log
+//	{"id": 1000,
+//	  "from": "USD",
+//	  "to": "INR",
+//	  "conversionMultiple": 70}
+
 public class CurrencyExchange {
 	private Long id;
 	private String from;
